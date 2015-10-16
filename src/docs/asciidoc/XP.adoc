@@ -90,7 +90,9 @@ ____
 * puisque la compréhension est importante, nous définirons et ferons évoluer ensemble des métaphores
 * puisque l'intégration des modifications est cruciale, nous l'effectuerons plusieurs fois par jour
 * puisque les besoins évoluent vite, nous ferons des cycles de développement très rapides pour nous adapter au changement
+
 ____
+
 
 [NOTE.speaker]
 --

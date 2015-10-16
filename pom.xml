@@ -16,11 +16,6 @@
 		<docbook-resources>${project.build.directory}/docbook-resources</docbook-resources>
 		<docbook-custom>${docbook-resources}/orange</docbook-custom>
 		<generated-docs>${project.build.directory}/generated-docs</generated-docs>
-		<maven.dependency.plugin.version>2.8</maven.dependency.plugin.version>
-		<maven.antrun.plugin.optional.version>1.5.4</maven.antrun.plugin.optional.version>
-		<asciidoctor.maven.version>1.5.2</asciidoctor.maven.version>
-		<asciidoctor.version>1.5.2</asciidoctor.version>
-		<novia.doctools.version>1.0.1</novia.doctools.version>
     </properties>
 
     <build>
@@ -158,12 +153,12 @@
                 <artifactId>asciidoctor-maven-plugin</artifactId>
                 <version>${asciidoctor.maven.plugin.version}</version>
                 <dependencies>
-                    <!-- Comment this section to use the default jruby artifact provided by the plugin -->
+                    <!-- Comment this section to use the default jruby artifact provided by the plugin 
                     <dependency>
                         <groupId>org.jruby</groupId>
                         <artifactId>jruby-complete</artifactId>
                         <version>${jruby.version}</version>
-                    </dependency>
+                    </dependency>-->
                 </dependencies>
                 <configuration>
                     <sourceDirectory>src/docs/asciidoc</sourceDirectory>
