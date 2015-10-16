@@ -17,8 +17,15 @@ ____
 
 == Origine
 
-* Inventé par Kent Beck, Ward Cunningham et Ron Jeffries dans les années 1990
+* Dans les années 90s Kent Beck songeait a un meilleur moyen de faire du développement logiciel
+* Ward Cunningham et lui-même ont eu l'expérience d'une approche du développement logiciel qui rendait tout plus simple et plus efficace
+* En mars 1996 Kent comença un projet en utilisant de nouveaux concepts de développement logiciel - ce fut le début de l'Extreme Programming (XP)
 * livre "Extreme Programming Explained" de Kent Beck (1999).
+
+== But
+
+* réduire les couts du changement
+* constat :  dans les approches classiques, beaucoup d'effort est fait pour rien, du à des specs imprécises, et surtout au changement des besoins et technologies
 
 
 == Définition
@@ -33,16 +40,48 @@ ____
 ____
 
 
-== But
+== Les valeurs de base XP
 
-* réduire les couts du changement
+5 valeurs
+
+* Communication
+** Toujours améliorer la communication
+* Simplicité
+** Toujours privilégier la simplicité
+* Feedback
+** Vous devez obtenir un feedback sur vos efforts
+* Courage
+** Vous devez toujours faire preuve de courage
+* Respect
+
+== Pratiques
+
+13 techniques de bon sens, la plupart sont pratiqués dans l'industrie du développement logiciel depuis des années
+
+* Client sur site
+* Le jeu du planning
+* Intégration continue
+* Petites releases
+* Vélocité soutenable ("semaine de 40h")
+* Vélocité soutenable ("semaine de 40h")
+* Test first development
+* "Design" simple
+* Utilisation de métaphores (se mettre d'accord sur les termes)
+* Refactoring
+* Propriété collective
+* Pair Programming
+* Standards de code / convention de nommage
+
+== Planning
+
+
 
 == Méthode
 
 * rien de neuf, mais poussé à l'extreme.
 
 [quote, Wikipedia]
-__
+____
 
 * puisque la revue de code est une bonne pratique, elle sera faite en permanence (par un binôme)
 * puisque les tests sont utiles, ils seront faits systématiquement avant chaque mise en œuvre
@@ -51,7 +90,7 @@ __
 * puisque la compréhension est importante, nous définirons et ferons évoluer ensemble des métaphores
 * puisque l'intégration des modifications est cruciale, nous l'effectuerons plusieurs fois par jour
 * puisque les besoins évoluent vite, nous ferons des cycles de développement très rapides pour nous adapter au changement
-__
+____
 
 [NOTE.speaker]
 --
