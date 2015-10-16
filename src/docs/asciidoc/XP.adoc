@@ -1,0 +1,63 @@
+= eXtreme Programming
+Dominik GOLDSCHMIDT
+2015-10-16
+:revnumber: {project-version}
+:revealjs_center: false
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
+:notesbackend: html5
+
+
+== Introduction
+
+[quote, Wikipedia]
+____
+__extreme programming__ (XP) est une méthode agile plus particulièrement orientée sur l'aspect réalisation d'une application, sans pour autant négliger l'aspect gestion de projet. XP est adapté aux équipes réduites avec des besoins changeants. XP pousse à l'extrême des principes simples
+____
+
+== Origine
+
+* Inventé par Kent Beck, Ward Cunningham et Ron Jeffries dans les années 1990
+* livre "Extreme Programming Explained" de Kent Beck (1999).
+
+
+== Définition
+
+[quote, Wikipedia]
+____
+* une tentative de réconcilier l'humain avec la productivité
+* un mécanisme pour faciliter le changement social
+* une voie d'amélioration
+* un style de développement
+* une discipline de développement d'applications informatiques
+____
+
+
+== But
+
+* réduire les couts du changement
+
+== Méthode
+
+* rien de neuf, mais poussé à l'extreme.
+
+[quote, Wikipedia]
+__
+
+* puisque la revue de code est une bonne pratique, elle sera faite en permanence (par un binôme)
+* puisque les tests sont utiles, ils seront faits systématiquement avant chaque mise en œuvre
+* puisque la conception est importante, elle sera faite tout au long du projet (refactoring)
+* puisque la simplicité permet d'avancer plus vite, nous choisirons toujours la solution la plus simple
+* puisque la compréhension est importante, nous définirons et ferons évoluer ensemble des métaphores
+* puisque l'intégration des modifications est cruciale, nous l'effectuerons plusieurs fois par jour
+* puisque les besoins évoluent vite, nous ferons des cycles de développement très rapides pour nous adapter au changement
+__
+
+[NOTE.speaker]
+--
+Une note
+--
+
+[%step]
+* une liste
+* une liste
